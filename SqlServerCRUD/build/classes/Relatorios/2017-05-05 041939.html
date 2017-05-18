@@ -1,0 +1,127 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Relat�rio</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <style type="text/css">
+            @page{
+                margin-top: 3cm;
+                margin-left: 3cm;
+                margin-bottom: 2cm;
+                margin-left: 2cm;
+            }
+            #titulo{
+                font-size: 14px;
+                text-align: center;
+            }
+            #tabela{
+                width: 90%;
+                font-size: 12px;
+                margin: 0 auto;
+                text-align: justify;
+                border: 1px solid black;
+                border-collapse: collapse;
+                white-space: pre-line;
+                table-layout: auto;
+                width: content-box;
+                height: content-box;
+            }
+            .celula{
+                border: 1px solid black;
+                text-align: justify;
+                font-size: 12px;
+            }
+            .celula_center{
+                border: 1px solid black;
+                text-align: center;
+                font-size: 12px;
+            }
+            .celula_head{
+                border: 2px solid black;
+                background-color: #D3D3D3;
+                text-align: center;
+                font-size: 12px;
+            }
+            #rodape-final{
+                width: 100%;
+                position: absolute;
+                top: 22cm;
+                left: 0cm;
+                bottom: 3cm;
+                right: 2cm;
+                font-size: 12px;
+            }
+            #align-right{
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p id="titulo"><b>{{NOME_DA_EMPRESA}}</b></p>
+            <p><b>SAL�RIO DOS FUNCIONARIOS</b></p>
+        </div>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th class="celula_head">Nome</th>
+                    <th class="celula_head">Sexo</th>
+                    <th class="celula_head">Data Nascimento</th>
+                    <th class="celula_head">Sal�rio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="celula_center">Mikey Mouse</td>
+                    <td class="celula_center">M</td>
+                    <td class="celula_center">24/08/1996</td>
+                    <td class="celula">R$ 1.200,00</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Adalina Fer</td>
+                    <td class="celula_center">F</td>
+                    <td class="celula_center">21/04/1996</td>
+                    <td class="celula">R$ 2.000,00</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Vortz Adman</td>
+                    <td class="celula_center">M</td>
+                    <td class="celula_center"></td>
+                    <td class="celula">R$ 1.600,00</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Xxaac</td>
+                    <td class="celula_center">F</td>
+                    <td class="celula_center"></td>
+                    <td class="celula">R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Ca</td>
+                    <td class="celula_center">M</td>
+                    <td class="celula_center"></td>
+                    <td class="celula">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Kuzao</td>
+                    <td class="celula_center">M</td>
+                    <td class="celula_center"></td>
+                    <td class="celula">R$ 1.055,55</td>
+                </tr>
+                <tr>
+                    <td class="celula_center">Kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</td>
+                    <td class="celula_center">M</td>
+                    <td class="celula_center"></td>
+                    <td class="celula">R$ 0,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="rodape-final">
+            <hr size="1" color=black>
+            <p id="align-right"><b>TOTAL GERAL: </b>R$ 5.955,55</p>
+        </div>
+    </body>
+</html>
